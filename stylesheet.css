@@ -1,4 +1,167 @@
 body{
     background-image: url("background.png");
     background-size: 100%;
+    background-attachment: fixed;
+}
+.containerHeader{
+    background-color: black;
+    height: 350px;
+    padding: 20px;
+}
+.horizontal{
+    border-top: 1px solid #9CC1D9;
+    width: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.myIcon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.navUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navUl li {
+    float: left;
+}
+
+li a {
+    color: #A68877;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #8C2727;
+    color: black;
+    text-decoration: none;
+}
+li a.active{
+    background-color: #8C2727;
+}
+.navHorizontal{
+    border-color: #9CC1D9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headerTitle{
+    color: #A68877;
+}
+.mainContainer{
+    width: 300px;
+    height: 360px;
+    background-color: #8C2727;
+    display: block;
+    margin: 200px auto;
+}
+.mainTitle{
+    text-align: center;
+    font-size: 90px;
+    color: #A68877;
+}
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+    width: 800px;
+    height: 500px;
+}
+.skills{
+    color: #8C2727;
+    padding: 40px;
+}
+.skillBox1{
+    background-color: #A68877;
+    height: 300px;
+    text-align: center;
+    font-size: 150px;
+}
+.skillBox2{
+    background-color: #F24141;
+    height: 300px;
+    text-align: center;
+    font-size: 150px;
+}
+.skillBox3{
+    background-color: #8C2727;
+    height: 300px;
+    text-align: center;
+    font-size: 150px;
+}
+.skillBoxLink{
+    color: #150f1a;
+    text-decoration: none;
+}
+.skillBoxLink:hover{
+    color: #150f1a;
+    text-decoration: none;
+    font-size: 160px;
+}
+.foot{
+    margin-top: 50px;
+    height: 100px;
+    background-color: black;
+    color: #A68877;
+}
+.footHorizontal{
+    border-color: #9CC1D9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+.email, svg{
+    float: right;
+    margin-right: 700px;
+}
+.footName{
+    margin-left: 700px;
+}
+.vidContainer{
+    background-color: #150f1a;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.skillContainer{
+    background-color: #150f1a;
+    margin-top: 100px;
+    height: 550px;
+}
+.skillBoxRow{
+    display: flex;
+    align-items: center;
+}
+
+/*resume page*/
+
+.resumeSection{
+    height: auto;
+    background-color: #A68877;
+}
+.resumeSection h2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.resumeSection p{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.resumeSection ul{
+    margin-left: 100px;
+    padding: 0;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.resumeSection li{
+    margin-top: 10px;
 }

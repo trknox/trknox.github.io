@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Resume</title>
+</head>
+<body id="resume">
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 containerHeader">
+                <h1 class="text-center headerTitle">Tylar</h1>
+                <hr class="horizontal">
+                <h1 class="text-center headerTitle">Knox</h1>
+                <img src="me.jpg" class="rounded-circle myIcon" alt="Icon of me" width="100" height="100">
+                <hr class="navHorizontal">
+                <nav>
+                    <ul class="navUl">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#aboutMe.html">About Me</a></li>
+                        <li><a href="#HTML/CSS.html">HTML/CSS</a></li>
+                        <li><a href="#JavaScript.html">JavaScript</a></li>
+                        <li><a class="active" href="resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+                <hr class="navHorizontal">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <article class="container-fluid">
+            <div class="row">
+                <div class="col-sm-5 resumeSection">
+                    <h2>- Education</h2>
+                </div>
+
+                <div class="col-sm-7 resumeSection">
+                    <h2>Madison Park Technical Vocational High School</h2>
+                    <p>Boston, MA</p>
+                    <p>Class of 2021</p>
+                    <p>Vocation: Computer Programming and Web Development</p>
+                    <p>Current GPA: 4.5 as of December, 2019</p>
+
+                    <h2>Bunker Hull Community College</h2>
+                    <p>Boston, MA</p>
+                    <p>Dual Enrollment</p>
+                    <p>January 2019 - Present</p>
+
+                    <h2>Columbia University</h2>
+                    <p>New York, NY</p>
+                    <p>Dual Enrollment</p>
+                    <p>October 2020 - November 2020</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 resumeSection">
+                    <h2>- Competencies & Technical Skills</h2>
+                </div>
+
+                <div class="col-sm-7 resumeSection">
+                    <ul>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <li>Advanced in Microsoft Excel</li>
+                                    <li>Intermediate in Microsoft Word</li>
+                                    <li>Intermediate in Web Development</li>
+                                    <li>Beginner in C#</li>
+                                    <li>Beginner in JavaScript</li>
+                                    <li>Communication</li>
+                                    <li>Reliable</li>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <li>Intermediate in Python</li>
+                                    <li>Intermediate in HTML/CSS</li>
+                                    <li>Introduction to Tableau</li>
+                                    <li>Problem Solving</li>
+                                    <li>Attentiveness</li>
+                                    <li>Organized</li>
+                                    <li>Beginner in C++ </li>
+                                    <li>Beginner in Java</li>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 resumeSection">
+                    <h2>- Certifications</h2>
+                </div>
+
+                <div class="col-sm-7 resumeSection">
+                    <h2>Microsoft Excel</h2>
+                    <p>June, 2018</p>
+
+                    <h2>Microsoft Word</h2>
+                    <p>August, 2018</p>
+
+                    <h2>PowerPoint</h2>
+                    <p>November, 2019</p>
+
+                    <h2>OSHA</h2>
+                    <p>January, 2020</p>
+
+                    <h2>HTML & CSS</h2>
+                    <p>May, 2020</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5 resumeSection">
+                    <h2>- Work Experience</h2>
+                </div>
+
+                <div class="col-sm-7 resumeSection">
+                    <h2>BATEC | Boston, MA</h2>
+                    <p>July, 2018 – August, 2018</p>
+                    <p>Computer Programmer</p>
+                    <ul>
+                        <li>Coded a Nao robot to dance for two minutes with Choreograph using Python</li>
+                        <li>Organized registration data in order to provide a better understanding of it using Microsoft Excel</li>
+                        <li>Collaborated with another student</li>
+                    </ul>
+
+                    <h2>Sanofi Genzyme |  Cambridge, MA</h2>
+
+                    <h2>Liberty Mutual | Boston, MA</h2>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+</body>
+</html>

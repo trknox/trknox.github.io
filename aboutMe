@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>About Me</title>
+</head>
+<body id="index">
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 containerHeader">
+                <a href="index.html">
+                    <div class="homeIcon">
+                        <p>TK</p>
+                    </div>
+                </a>
+
+                <div class="headerName">
+                    <h1 class="headerTitle">Tylar</h1>
+                    <hr class="horizontal">
+                    <h1 class="headerTitle">Knox</h1>
+                </div>
+
+                <hr class="navTop navHorizontal">
+                <nav>
+                    <ul class="navUl">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="aboutMe.html">About Me</a></li>
+                        <li><a href="HTMLCSS.html">HTML/CSS</a></li>
+                        <li><a href="JS.html">JavaScript</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+                <hr class="navHorizontal">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="aboutContainer">
+        <img class="selfPortrait" src="selfPortrait.jpg" alt="self portrait">
+        <p class="aboutMeText">Hi, My name is Tylar Knox and I'm apart of the 2021 high school graduating class!
+            I was born in Chicago, Illinois and raised in Boston, Massachusetts where I began to develop a passion
+            in creativity which I've expressed through art. At a young age I enjoyed making things out of cardboard as well
+            as painting and drawing. As I got older I discovered a new way to express my passion for creating things which is through
+            computer programming and web development.</p>
+
+        <p class="aboutMeText">Throughout my high school career at Madison Park Technical Vocational High School I've
+            studied computer programming and web development and fell in love with it. I've been able to create multiple
+            websites as well as computer programs such as animations, games, and calculators. I've been able to learn about different
+            coding languages, a few of them being JavaScript, HTML/CSS and Python.</p>
+
+        <p>Apart from the technical side of computer programming I've learned how to work towards a goal until I
+            reach it. If the way I'm doing something isn't working out it's always possible to find another
+            solution. I've also gotten familiar with how to utilize my resources. Sometimes it's necessary to look
+            something up on the internet or communicate with someone and ask them questions so you can better
+            understand what you're doing.</p>
+    </div>
+</main>
+
+<footer>
+    <div class="container-fluid foot">
+        <div class="row">
+            <div class="col-sm-12 ">
+                <hr class="footHorizontal">
+                <a class="emailLink" href="mailto:trknox03@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                </a>
+                <p class="footName">&copy 2021 by Tylar Knox</p>
+                <hr class="footHorizontal">
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
